@@ -1,0 +1,115 @@
+
+/*
+#interview {
+	background-color: ;
+}*/
+body{
+	background-color: #25272F;
+	font-family:italic;  /*tipo de letra */
+	color: white;       /*color de letra*/
+	font-weight: bold;  /* negrita*/
+}
+
+.title {
+	width: 170px;
+	height: 140px;
+	margin:5px;
+	padding: 20px;
+	float: left;  /*  esta propiedad hace que se adapte segun el tam del navegador*/
+}
+
+.titleDoble{
+	width: 390px;
+	height: 140px;
+	margin: 5px;
+	padding: 20px;
+	float: left;	
+}
+
+/*para que este centrada en la pagina*/
+#main-container{
+	max-width: 900px;
+	min-width: 500px;
+	margin: 5px auto;
+}
+
+#tabla-usuarios{
+	margin: 10px auto;  /*margen de separacion interno */
+	font-weight: normal;
+	width: 100%;	
+}
+
+#tabla-usuarios th{  /*para la fila principal*/
+	border-bottom: 1px solid #F6F6F6;  /* solid=linea*/
+	padding: 2px;   /* separacion interna*/
+	text-align: center;		
+}
+
+#tabla-usuarios td{
+	font-size: 18px;
+	text-align: center;
+}
+
+.numero{
+	font-size: 30pt;
+	text-align: right;
+}
+
+.eventoDias{
+	font-size: 55pt;
+}
+
+.eventoHoras{
+	font-size: 10pt;
+	font-style: italic;
+	text-align: right;
+	margin-right: 10px;
+}
+/* background colors for the tiles */
+.green {
+    background-color:#13B2A3;
+}
+
+.red {
+    background-color:#F16F51;
+}
+
+.yellow {
+    background-color:#FDB45C;        
+}
+
+.lightgrey {
+    background-color:#F6F6F6;
+    color: black;
+}
+.city-image{
+	background-image: url("imagenes/santiago.png");
+	background-color: red;
+	font-size: 20pt;
+}
+
+.lista li{  /* para no repetir codigo */
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+ul.lista li{   /* para las listas de los links*/
+	list-style-type: disc;
+}
+
+ol.lista li{  /* para listas numerales*/
+	list-style-type: decimal;
+}
+
+.lista a{  /*todos los enlaces "a" */
+	color: white;
+	text-decoration: none;
+}
+
+.eventoFecha{
+	margin-top:40px;
+}
+
+h2{
+	margin-bottom: 50px;
+	font-size-adjust: 18pt
+}
